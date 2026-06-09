@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <nav class="bg-blue-600 text-white">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold">TravelX</h1>
+
+            <ul class="flex gap-6">
+                <li><a href="#home" class="hover:text-gray-200">Home</a></li>
+                <li><a href="#destinations" class="hover:text-gray-200">Destinations</a></li>
+                <li><a href="#packages" class="hover:text-gray-200">Packages</a></li>
+                <li><a href="#contact" class="hover:text-gray-200">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-cover bg-center h-screen flex items-center justify-center text-white text-center"
+        style="background-image:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');">
+
+        <div class="bg-black bg-opacity-50 p-8 rounded-lg">
+            <h2 class="text-5xl font-bold mb-4">Explore The World</h2>
+            <p class="text-lg mb-6">Discover amazing destinations and unforgettable experiences.</p>
+            <a href="#destinations"
+                class="bg-blue-600 px-6 py-3 rounded-lg hover:bg-blue-700">
+                Explore Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Destinations -->
+    <section id="destinations" class="py-16 px-6">
+        <h2 class="text-4xl font-bold text-center mb-10">Popular Destinations</h2>
+
+        <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963" alt="">
+                <div class="p-5">
+                    <h3 class="text-2xl font-bold mb-2">Paris</h3>
+                    <p>Experience the beauty of the City of Love.</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="">
+                <div class="p-5">
+                    <h3 class="text-2xl font-bold mb-2">Switzerland</h3>
+                    <p>Enjoy breathtaking mountain landscapes.</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="">
+                <div class="p-5">
+                    <h3 class="text-2xl font-bold mb-2">Maldives</h3>
+                    <p>Relax on crystal-clear beaches and resorts.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Packages -->
+    <section id="packages" class="bg-white py-16 px-6">
+        <h2 class="text-4xl font-bold text-center mb-10">Travel Packages</h2>
+
+        <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+
+            <div class="border rounded-lg p-6 text-center shadow-lg">
+                <h3 class="text-2xl font-bold mb-4">Basic</h3>
+                <p class="text-4xl font-bold text-blue-600 mb-4">$299</p>
+                <p>3 Days Tour</p>
+                <p>Hotel Included</p>
+                <p>Breakfast Included</p>
+                <button class="mt-5 bg-blue-600 text-white px-5 py-2 rounded">
+                    Book Now
+                </button>
+            </div>
+
+            <div class="border rounded-lg p-6 text-center shadow-lg">
+                <h3 class="text-2xl font-bold mb-4">Premium</h3>
+                <p class="text-4xl font-bold text-blue-600 mb-4">$599</p>
+                <p>7 Days Tour</p>
+                <p>Luxury Hotel</p>
+                <p>All Meals Included</p>
+                <button class="mt-5 bg-blue-600 text-white px-5 py-2 rounded">
+                    Book Now
+                </button>
+            </div>
+
+            <div class="border rounded-lg p-6 text-center shadow-lg">
+                <h3 class="text-2xl font-bold mb-4">Luxury</h3>
+                <p class="text-4xl font-bold text-blue-600 mb-4">$999</p>
+                <p>14 Days Tour</p>
+                <p>5-Star Resort</p>
+                <p>VIP Services</p>
+                <button class="mt-5 bg-blue-600 text-white px-5 py-2 rounded">
+                    Book Now
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 px-6">
+        <h2 class="text-4xl font-bold text-center mb-10">What Our Clients Say</h2>
+
+        <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
+
+            <div class="bg-white p-6 rounded-lg shadow">
+                <p>"Amazing experience! Everything was perfectly organized."</p>
+                <h4 class="font-bold mt-4">- John Doe</h4>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow">
+                <p>"Best travel agency I've ever used. Highly recommended."</p>
+                <h4 class="font-bold mt-4">- Sarah Smith</h4>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="bg-blue-600 text-white py-16 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4">Contact Us</h2>
+            <p class="mb-6">Ready to start your next adventure?</p>
+
+            <p>Email: info@travelx.com</p>
+            <p>Phone: +91 98765 43210</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white text-center py-4">
+        <p>&copy; 2026 TravelX. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
